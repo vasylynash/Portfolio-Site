@@ -1,0 +1,60 @@
+.background-color-layer {
+    box-shadow: 1px 20px 20px 20px #0a2313;
+    opacity: 0.5;
+}
+
+body {
+    background-image: linear-gradient(
+180deg
+,#3b48a9 0,#297eb6);
+    /* background-color: rgb(21, 113, 69); */
+}
+
+.nav {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav-item {
+    display: inline-block;
+    padding: 3px;
+    color: white;
+}
+
+#contacts {
+      display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items:center;
+  width: 100%;
+  padding: 5px;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+  align-items: flex-end;
+}
+
+.links div {
+  padding: 5px;
+}
+
+.links a {
+  color: black;
+  padding-bottom: 0px;
+}
+
+@media screen and (max-width: 523px) {
+    .links {
+  justify-content:unset;
+    }
+}
